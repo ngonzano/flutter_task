@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_task/shared/widget/spacing/app_spacing.dart';
+import 'package:fluttertask/shared/widget/spacing/app_spacing.dart';
 
 class AppVerticalSpace {
   const AppVerticalSpace._();

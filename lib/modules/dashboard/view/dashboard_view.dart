@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/config.dart';
-import 'package:flutter_task/modules/dashboard/widget/donutChartPainter.dart';
-import 'package:flutter_task/modules/home/models/task_model.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
+import 'package:fluttertask/core/config/config.dart';
+import 'package:fluttertask/modules/dashboard/widget/donutChartPainter.dart';
+import 'package:fluttertask/modules/home/models/task_model.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
 
 class DashboardView extends StatelessWidget {
   const DashboardView({

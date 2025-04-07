@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:flutter_task/l10n/app_localizations.dart';
+import 'package:fluttertask/l10n/app_localizations.dart';
 
 // Mock de AppLocalizations
 class MockAppLocalizations extends Mock implements AppLocalizations {
@@ -47,7 +47,7 @@ void main() {
 
     setUp(() {
       // Inicializar los mocks
-      
+
       controller = BaseController();
 
       // Configuración de BuildContext para devolver AppLocalizations mockeado

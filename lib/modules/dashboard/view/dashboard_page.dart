@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/modules/dashboard/view/dashboard_view.dart';
-import 'package:flutter_task/modules/home/models/task_model.dart';
-import 'package:flutter_task/shared/widget/app_scaffold.dart';
+import 'package:fluttertask/modules/dashboard/view/dashboard_view.dart';
+import 'package:fluttertask/modules/home/models/task_model.dart';
+import 'package:fluttertask/shared/widget/app_scaffold.dart';
 import 'package:go_router/go_router.dart';
 
 class DashboardPage extends StatelessWidget {

@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
-import 'package:flutter_task/core/config/color/app_colors.dart';
-import 'package:flutter_task/modules/home/controller/home_controller.dart';
-import 'package:flutter_task/modules/home/models/task_model.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/utils/util.dart';
-import 'package:flutter_task/shared/widget/app_button_icon.dart';
-import 'package:flutter_task/shared/widget/app_modal.dart';
-import 'package:flutter_task/shared/widget/app_textfield.dart';
-import 'package:flutter_task/shared/widget/spacing/app_spacer.dart';
-import 'package:flutter_task/shared/widget/spacing/app_spacing.dart';
-import 'package:flutter_task/shared/widget/text_widget.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/core/config/color/app_colors.dart';
+import 'package:fluttertask/modules/home/controller/home_controller.dart';
+import 'package:fluttertask/modules/home/models/task_model.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/utils/util.dart';
+import 'package:fluttertask/shared/widget/app_button_icon.dart';
+import 'package:fluttertask/shared/widget/app_modal.dart';
+import 'package:fluttertask/shared/widget/app_textfield.dart';
+import 'package:fluttertask/shared/widget/spacing/app_spacer.dart';
+import 'package:fluttertask/shared/widget/spacing/app_spacing.dart';
+import 'package:fluttertask/shared/widget/text_widget.dart';
 import 'package:go_router/go_router.dart';
 
 class CardTask extends StatelessWidget {

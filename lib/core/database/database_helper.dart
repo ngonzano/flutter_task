@@ -1,7 +1,7 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_task/core/constants/storage.dart';
-import 'package:flutter_task/core/database/database_schemas.dart';
-import 'package:flutter_task/modules/home/models/task_model.dart';
+import 'package:fluttertask/core/constants/storage.dart';
+import 'package:fluttertask/core/database/database_schemas.dart';
+import 'package:fluttertask/modules/home/models/task_model.dart';
 import 'package:logging/logging.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';

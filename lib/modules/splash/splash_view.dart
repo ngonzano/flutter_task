@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/auth/model/auth_user.dart';
+import 'package:fluttertask/core/auth/model/auth_user.dart';
 
-import 'package:flutter_task/core/constants/routes.dart';
-import 'package:flutter_task/core/preferences/preferences.dart';
-import 'package:flutter_task/core/provider/locale_provider.dart'
+import 'package:fluttertask/core/constants/routes.dart';
+import 'package:fluttertask/core/preferences/preferences.dart';
+import 'package:fluttertask/core/provider/locale_provider.dart'
     show LocaleProvider;
-import 'package:flutter_task/core/provider/theme_provider.dart';
+import 'package:fluttertask/core/provider/theme_provider.dart';
 
-import 'package:flutter_task/core/secure_storage/securete_storage_service.dart';
+import 'package:fluttertask/core/secure_storage/securete_storage_service.dart';
 
-import 'package:flutter_task/shared/widget/app_scaffold.dart';
+import 'package:fluttertask/shared/widget/app_scaffold.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 

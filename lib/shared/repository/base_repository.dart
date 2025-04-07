@@ -1,4 +1,4 @@
-import 'package:flutter_task/core/preferences/preferences.dart';
+import 'package:fluttertask/core/preferences/preferences.dart';
 import 'package:logging/logging.dart';
 import 'package:meta/meta.dart';
 

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_task/core/constants/option.dart';
-import 'package:flutter_task/core/network/dio_client.dart';
-import 'package:flutter_task/core/network/models/api_response.dart';
+import 'package:fluttertask/core/constants/option.dart';
+import 'package:fluttertask/core/network/dio_client.dart';
+import 'package:fluttertask/core/network/models/api_response.dart';
 import 'package:logging/logging.dart';
 
 typedef FromJson<T> = T Function(Map<String, dynamic>);

@@ -1,4 +1,4 @@
-import 'package:flutter_task/core/constants/storage.dart';
+import 'package:fluttertask/core/constants/storage.dart';
 
 final Map<String, String> tableSchemas = {
   TablaStorage.task: '''

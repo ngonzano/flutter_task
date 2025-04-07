@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:flutter_task/core/auth/model/auth_user.dart';
-import 'package:flutter_task/core/constants/option.dart';
-import 'package:flutter_task/core/network/network.dart';
-import 'package:flutter_task/core/secure_storage/securete_storage_service.dart';
-import 'package:flutter_task/shared/models/user_model.dart';
+import 'package:fluttertask/core/auth/model/auth_user.dart';
+import 'package:fluttertask/core/constants/option.dart';
+import 'package:fluttertask/core/network/network.dart';
+import 'package:fluttertask/core/secure_storage/securete_storage_service.dart';
+import 'package:fluttertask/shared/models/user_model.dart';
 
-import 'package:flutter_task/shared/repository/base_repository.dart';
+import 'package:fluttertask/shared/repository/base_repository.dart';
 import 'package:logging/logging.dart';
 
 class UserRepository extends BaseRepository {

@@ -1,10 +1,10 @@
-import 'package:flutter_task/core/constants/option.dart';
-import 'package:flutter_task/core/constants/storage.dart';
-import 'package:flutter_task/core/database/database_helper.dart';
-import 'package:flutter_task/core/network/api_service.dart';
-import 'package:flutter_task/core/network/connection_observer.dart';
-import 'package:flutter_task/modules/home/models/task_model.dart';
-import 'package:flutter_task/shared/repository/base_repository.dart';
+import 'package:fluttertask/core/constants/option.dart';
+import 'package:fluttertask/core/constants/storage.dart';
+import 'package:fluttertask/core/database/database_helper.dart';
+import 'package:fluttertask/core/network/api_service.dart';
+import 'package:fluttertask/core/network/connection_observer.dart';
+import 'package:fluttertask/modules/home/models/task_model.dart';
+import 'package:fluttertask/shared/repository/base_repository.dart';
 import 'package:logging/logging.dart';
 
 class TaskRepository extends BaseRepository {

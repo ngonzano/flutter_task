@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/auth/model/auth_user.dart';
-import 'package:flutter_task/core/constants/routes.dart';
-import 'package:flutter_task/modules/register/controller/register_controller.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/widget/spacing/spacing.dart';
-import 'package:flutter_task/shared/widget/widget.dart';
+import 'package:fluttertask/core/auth/model/auth_user.dart';
+import 'package:fluttertask/core/constants/routes.dart';
+import 'package:fluttertask/modules/register/controller/register_controller.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/widget/spacing/spacing.dart';
+import 'package:fluttertask/shared/widget/widget.dart';
 
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';

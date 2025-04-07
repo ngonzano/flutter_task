@@ -2,7 +2,7 @@ import 'package:encrypt/encrypt.dart';
 
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:flutter_task/core/auth/model/auth_user.dart';
+import 'package:fluttertask/core/auth/model/auth_user.dart';
 import 'package:logging/logging.dart';
 
 final secretKey = dotenv.env['SECRET_KEY']!;

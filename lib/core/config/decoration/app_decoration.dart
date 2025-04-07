@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_colors.dart';
-import 'package:flutter_task/core/config/style/app_styles.dart';
+import 'package:fluttertask/core/config/color/app_colors.dart';
+import 'package:fluttertask/core/config/style/app_styles.dart';
 
 class AppDecorations {
   static InputDecoration textFormFieldDecoration({

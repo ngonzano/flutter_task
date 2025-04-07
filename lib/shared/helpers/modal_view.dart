@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/config.dart';
-import 'package:flutter_task/shared/widget/app_button_icon.dart';
-import 'package:flutter_task/shared/widget/spacing/spacing.dart';
+import 'package:fluttertask/core/config/config.dart';
+import 'package:fluttertask/shared/widget/app_button_icon.dart';
+import 'package:fluttertask/shared/widget/spacing/spacing.dart';
 import 'package:go_router/go_router.dart';
 
 class ModalView extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_colors.dart';
-import 'package:flutter_task/shared/widget/text_widget.dart';
+import 'package:fluttertask/core/config/color/app_colors.dart';
+import 'package:fluttertask/shared/widget/text_widget.dart';
 
 void showCustomSnackBar({
   required BuildContext context,

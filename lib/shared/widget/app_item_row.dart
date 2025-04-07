@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/config.dart';
-import 'package:flutter_task/shared/widget/app_shimmer.dart';
-import 'package:flutter_task/shared/widget/spacing/app_spacer.dart';
+import 'package:fluttertask/core/config/config.dart';
+import 'package:fluttertask/shared/widget/app_shimmer.dart';
+import 'package:fluttertask/shared/widget/spacing/app_spacer.dart';
 
 class AppItemRow extends StatelessWidget {
   const AppItemRow({

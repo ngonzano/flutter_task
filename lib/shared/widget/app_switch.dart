@@ -1,7 +1,7 @@
 import 'dart:io' show Platform;
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
 
 class AppSwitch extends StatelessWidget {
   final bool value;

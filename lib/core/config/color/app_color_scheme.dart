@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/config.dart';
+import 'package:fluttertask/core/config/config.dart';
 
 class AppColorScheme extends InheritedWidget {
   final Brightness brightness;

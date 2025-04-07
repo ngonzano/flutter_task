@@ -1,13 +1,13 @@
 import 'dart:async' show Timer;
 
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/auth/repository/user_repository.dart';
-import 'package:flutter_task/core/constants/storage.dart';
-import 'package:flutter_task/core/secure_storage/securete_storage_service.dart';
+import 'package:fluttertask/core/auth/repository/user_repository.dart';
+import 'package:fluttertask/core/constants/storage.dart';
+import 'package:fluttertask/core/secure_storage/securete_storage_service.dart';
 
-import 'package:flutter_task/modules/home/models/task_model.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/repository/task_repository.dart';
+import 'package:fluttertask/modules/home/models/task_model.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/repository/task_repository.dart';
 
 class HomeController extends BaseController {
   HomeController({

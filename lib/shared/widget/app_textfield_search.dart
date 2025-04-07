@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
 
 class AppTextFieldSearch extends StatelessWidget {
   final String placeholder;

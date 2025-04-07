@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_task/core/constants/routes.dart';
-import 'package:flutter_task/core/preferences/preferences.dart';
-import 'package:flutter_task/core/router/router.dart';
+import 'package:fluttertask/core/constants/routes.dart';
+import 'package:fluttertask/core/preferences/preferences.dart';
+import 'package:fluttertask/core/router/router.dart';
 import 'package:go_router/go_router.dart';
 import 'package:logging/logging.dart';
 

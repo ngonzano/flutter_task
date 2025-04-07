@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
-import 'package:flutter_task/shared/widget/spacing/app_spacer.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/shared/widget/spacing/app_spacer.dart';
 
 class AppDialog extends StatelessWidget {
   const AppDialog({

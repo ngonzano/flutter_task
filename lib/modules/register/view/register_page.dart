@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/auth/repository/user_repository.dart';
-import 'package:flutter_task/core/network/api_service.dart';
-import 'package:flutter_task/modules/register/controller/register_controller.dart';
-import 'package:flutter_task/modules/register/view/register_view.dart';
+import 'package:fluttertask/core/auth/repository/user_repository.dart';
+import 'package:fluttertask/core/network/api_service.dart';
+import 'package:fluttertask/modules/register/controller/register_controller.dart';
+import 'package:fluttertask/modules/register/view/register_view.dart';
 
-import 'package:flutter_task/shared/widget/app_scaffold.dart';
+import 'package:fluttertask/shared/widget/app_scaffold.dart';
 import 'package:provider/provider.dart';
 
 class RegisterPage extends StatelessWidget {

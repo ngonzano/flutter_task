@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_task/core/auth/repository/user_repository.dart';
-import 'package:flutter_task/core/secure_storage/securete_storage_service.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/models/user_model.dart';
+import 'package:fluttertask/core/auth/repository/user_repository.dart';
+import 'package:fluttertask/core/secure_storage/securete_storage_service.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/models/user_model.dart';
 import 'package:logging/logging.dart';
 
 class SettingController extends BaseController {

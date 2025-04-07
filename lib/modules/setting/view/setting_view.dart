@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
 
-import 'package:flutter_task/core/constants/routes.dart';
-import 'package:flutter_task/core/preferences/preferences.dart';
-import 'package:flutter_task/core/provider/locale_provider.dart';
-import 'package:flutter_task/core/provider/theme_provider.dart';
-import 'package:flutter_task/modules/setting/controller/setting_controller.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/models/user_model.dart';
+import 'package:fluttertask/core/constants/routes.dart';
+import 'package:fluttertask/core/preferences/preferences.dart';
+import 'package:fluttertask/core/provider/locale_provider.dart';
+import 'package:fluttertask/core/provider/theme_provider.dart';
+import 'package:fluttertask/modules/setting/controller/setting_controller.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/models/user_model.dart';
 
-import 'package:flutter_task/shared/widget/spacing/app_spacer.dart';
-import 'package:flutter_task/shared/widget/widget.dart';
+import 'package:fluttertask/shared/widget/spacing/app_spacer.dart';
+import 'package:fluttertask/shared/widget/widget.dart';
 
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';

@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_task/l10n/app_localizations.dart';
-import 'package:flutter_task/shared/helpers/modal_view.dart';
-import 'package:flutter_task/shared/widget/app_modal_alert.dart';
+import 'package:fluttertask/l10n/app_localizations.dart';
+import 'package:fluttertask/shared/helpers/modal_view.dart';
+import 'package:fluttertask/shared/widget/app_modal_alert.dart';
 import 'package:go_router/go_router.dart';
 import 'package:logging/logging.dart';
 import 'package:meta/meta.dart';

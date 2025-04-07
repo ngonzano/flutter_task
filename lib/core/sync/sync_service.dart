@@ -1,8 +1,8 @@
-import 'package:flutter_task/core/constants/storage.dart';
-import 'package:flutter_task/core/database/database_helper.dart';
-import 'package:flutter_task/core/network/connection_observer.dart';
+import 'package:fluttertask/core/constants/storage.dart';
+import 'package:fluttertask/core/database/database_helper.dart';
+import 'package:fluttertask/core/network/connection_observer.dart';
 
-import 'package:flutter_task/shared/repository/task_repository.dart';
+import 'package:fluttertask/shared/repository/task_repository.dart';
 import 'package:logging/logging.dart';
 
 class SyncService {

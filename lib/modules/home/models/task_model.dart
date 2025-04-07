@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_task/shared/utils/converter.dart';
+import 'package:fluttertask/shared/utils/converter.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'task_model.g.dart';

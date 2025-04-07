@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
 
-import 'package:flutter_task/core/config/config.dart';
-import 'package:flutter_task/core/provider/locale_provider.dart';
-import 'package:flutter_task/core/provider/theme_provider.dart';
-import 'package:flutter_task/l10n/app_localizations.dart';
+import 'package:fluttertask/core/config/config.dart';
+import 'package:fluttertask/core/provider/locale_provider.dart';
+import 'package:fluttertask/core/provider/theme_provider.dart';
+import 'package:fluttertask/l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
@@ -50,7 +50,7 @@ Widget buildiOSScreen(BuildContext context, GoRouter appRouter) {
       final isDark = themeProvider.themeMode == ThemeMode.dark;
 
       return AppColorScheme(
-        brightness:isDark ? Brightness.dark: Brightness.light,
+        brightness: isDark ? Brightness.dark : Brightness.light,
         platform: defaultTargetPlatform,
         child: CupertinoApp.router(
           title: 'App Task',

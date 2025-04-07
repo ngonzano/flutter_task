@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
 
-import 'package:flutter_task/shared/widget/spacing/spacing.dart';
+import 'package:fluttertask/shared/widget/spacing/spacing.dart';
 
 class AppButton extends StatelessWidget {
   const AppButton({

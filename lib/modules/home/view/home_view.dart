@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_color_scheme.dart';
-import 'package:flutter_task/modules/home/controller/home_controller.dart';
-import 'package:flutter_task/modules/home/widget/widget.dart' show CardTask;
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/widget/text_widget.dart';
+import 'package:fluttertask/core/config/color/app_color_scheme.dart';
+import 'package:fluttertask/modules/home/controller/home_controller.dart';
+import 'package:fluttertask/modules/home/widget/widget.dart' show CardTask;
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/widget/text_widget.dart';
 import 'package:lottie/lottie.dart';
 
 class HomeView extends StatelessWidget {

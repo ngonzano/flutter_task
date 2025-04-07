@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/auth/repository/user_repository.dart';
-import 'package:flutter_task/core/config/config.dart';
-import 'package:flutter_task/core/network/api_service.dart';
-import 'package:flutter_task/modules/setting/controller/setting_controller.dart';
-import 'package:flutter_task/modules/setting/view/setting_view.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/widget/app_scaffold.dart';
+import 'package:fluttertask/core/auth/repository/user_repository.dart';
+import 'package:fluttertask/core/config/config.dart';
+import 'package:fluttertask/core/network/api_service.dart';
+import 'package:fluttertask/modules/setting/controller/setting_controller.dart';
+import 'package:fluttertask/modules/setting/view/setting_view.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/widget/app_scaffold.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 

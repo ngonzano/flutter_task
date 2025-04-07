@@ -1,17 +1,19 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_task/core/auth/repository/user_repository.dart';
-import 'package:flutter_task/core/database/database_helper.dart';
-import 'package:flutter_task/core/network/api_service.dart';
-import 'package:flutter_task/core/preferences/preferences.dart';
-import 'package:flutter_task/core/provider/locale_provider.dart';
-import 'package:flutter_task/core/provider/theme_provider.dart';
-import 'package:flutter_task/core/router/app_router.dart';
-import 'package:flutter_task/core/sync/sync_service.dart';
+import 'package:fluttertask/core/auth/repository/user_repository.dart';
+import 'package:fluttertask/core/config/notificaciones/firebase_notification_service.dart';
+import 'package:fluttertask/core/database/database_helper.dart';
+import 'package:fluttertask/core/network/api_service.dart';
+import 'package:fluttertask/core/preferences/preferences.dart';
+import 'package:fluttertask/core/provider/locale_provider.dart';
+import 'package:fluttertask/core/provider/theme_provider.dart';
+import 'package:fluttertask/core/router/app_router.dart';
+import 'package:fluttertask/core/sync/sync_service.dart';
 
-import 'package:flutter_task/modules/login/controller/login_controller.dart';
-import 'package:flutter_task/shared/repository/task_repository.dart';
+import 'package:fluttertask/modules/login/controller/login_controller.dart';
+import 'package:fluttertask/shared/repository/task_repository.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 
@@ -45,6 +47,7 @@ void main() async {
     return true;
   };
   WidgetsFlutterBinding.ensureInitialized();
+
   await dotenv.load(fileName: ".env");
   await SharedPreferencesHelper.init();
   await DatabaseHelper.init();
@@ -54,6 +57,7 @@ void main() async {
   final syncService = SyncService(db: db, taskRepository: taskRepo);
 
   syncService.startSyncObserver();
+
   runApp(const MyApp());
 }
 

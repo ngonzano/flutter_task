@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/constants/routes.dart';
-import 'package:flutter_task/shared/controller/base_controller.dart';
-import 'package:flutter_task/shared/widget/spacing/spacing.dart';
-import 'package:flutter_task/shared/widget/widget.dart';
+import 'package:fluttertask/core/constants/routes.dart';
+import 'package:fluttertask/shared/controller/base_controller.dart';
+import 'package:fluttertask/shared/widget/spacing/spacing.dart';
+import 'package:fluttertask/shared/widget/widget.dart';
 import 'package:go_router/go_router.dart';
 
 class WelcomeView extends StatelessWidget {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/preferences/preferences.dart';
-import 'package:flutter_task/modules/welcome/view/welcome_view.dart';
+import 'package:fluttertask/core/preferences/preferences.dart';
+import 'package:fluttertask/modules/welcome/view/welcome_view.dart';
 
-import 'package:flutter_task/shared/widget/app_scaffold.dart';
+import 'package:fluttertask/shared/widget/app_scaffold.dart';
 
 class WelcomePage extends StatelessWidget {
   const WelcomePage({super.key});
