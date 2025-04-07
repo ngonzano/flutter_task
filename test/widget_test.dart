@@ -37,19 +37,17 @@ class MockAppLocalizations extends Mock implements AppLocalizations {
 
 // Mock de BuildContext
 class MockBuildContext extends Mock implements BuildContext {
-  @override
   AppLocalizations get loc => MockAppLocalizations();
 }
 
 void main() {
   group('BaseController Test', () {
     late BaseController controller;
-    late MockAppLocalizations mockLocalizations;
     late BuildContext context;
 
     setUp(() {
       // Inicializar los mocks
-      mockLocalizations = MockAppLocalizations();
+      
       controller = BaseController();
 
       // Configuración de BuildContext para devolver AppLocalizations mockeado

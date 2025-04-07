@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/core/config/color/app_colors.dart';
 
 class AppStyles {
   static const TextStyle h2TextBlack = TextStyle(

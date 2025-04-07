@@ -2,16 +2,14 @@
 
 <img src="assets/img/note.png" alt="Icono del Proyecto" width="50" height="50" />
 
-
-
 ### IOS - Android
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://firebasestorage.googleapis.com/v0/b/saservi-753d6.firebasestorage.app/o/borrar%2Fimg2.png?alt=media&token=90559b93-bfd2-497c-98f6-006a34ed4dc9" alt="screenshot 2" width="200" style="flex: 1; max-width: 100%; height: auto; object-fit: contain;" />
+  <img src="https://firebasestorage.googleapis.com/v0/b/saservi-753d6.firebasestorage.app/o/borrar%2Fimg2.png?alt=media&token=90559b93-bfd2-497c-98f6-006a34ed4dc9" alt="screenshot 2"  style="flex: 1; max-width: 100%; height: auto; object-fit: contain;" />
 </div>
 </br>
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://firebasestorage.googleapis.com/v0/b/saservi-753d6.firebasestorage.app/o/borrar%2Fimg.png?alt=media&token=6b178702-9f4b-41a1-a152-b94a3dcc95dd" alt="screenshot 1" width="200" style="flex: 1; max-width: 100%; height: auto; object-fit: contain;" />
+  <img src="https://firebasestorage.googleapis.com/v0/b/saservi-753d6.firebasestorage.app/o/borrar%2Fimg.png?alt=media&token=6b178702-9f4b-41a1-a152-b94a3dcc95dd" alt="screenshot 1"  style="flex: 1; max-width: 100%; height: auto; object-fit: contain;" />
 </div>
 </br>
 Este proyecto ha sido desarrollado con **Flutter** y hace uso de las siguientes APIs públicas:
@@ -23,7 +21,7 @@ Se han implementado diversas tecnologías y bibliotecas del ecosistema Flutter p
 
 ## 🔑 Acceso de Prueba
 
-📌 *Nota:* Estos datos son proporcionados por [ReqRes API](https://reqres.in/) para testing. No requiere registro real.
+📌 _Nota:_ Estos datos son proporcionados por [ReqRes API](https://reqres.in/) para testing. No requiere registro real.
 
 1. Ve a la pantalla de **Registro**
 2. Ingresa un usuario y contraseña
@@ -47,6 +45,7 @@ Se han implementado diversas tecnologías y bibliotecas del ecosistema Flutter p
 - **Gestion de Tareas**: Mantenimiento de Tareas editar, insertar y eliminar, busqueda y filtrado.
 - **Modo Offline**: Se podra agregar tareas en modo offline y cuando cuente con red se sincronizara de manera automatica.
 - **Seguridad de datos**: Uso de flutter_secure_storage para el almacenamiento seguro de tokens.
+
 ## Paquetes utilizados
 
 ### Dependencias principales
@@ -101,3 +100,11 @@ Se utiliza flutter_dotenv para manejar las claves de la API y otras configuracio
 
 en la ruta hay un archivo .env.example de modelo.
 
+# Version Dart y SDK
+
+```bash
+Flutter 3.29.2 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision c236373904 (4 weeks ago) • 2025-03-13 16:17:06 -0400
+Engine • revision 18b71d647a
+Tools • Dart 3.7.2 • DevTools 2.42.3
+```

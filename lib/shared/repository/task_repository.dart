@@ -98,7 +98,7 @@ class TaskRepository extends BaseRepository {
         userId: item[ColumnsTblTask.userId] as int,
         id: item[ColumnsTblTask.id] as int,
         title: item[ColumnsTblTask.title],
-        completed: int.parse(item[ColumnsTblTask.completed]),
+        completed: item[ColumnsTblTask.completed] as int,
       );
     }).toList();
   }
