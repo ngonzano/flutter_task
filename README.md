@@ -14,7 +14,12 @@
   <img src="https://firebasestorage.googleapis.com/v0/b/saservi-753d6.firebasestorage.app/o/borrar%2Fimg.png?alt=media&token=6b178702-9f4b-41a1-a152-b94a3dcc95dd" alt="screenshot 1" width="200" style="flex: 1; max-width: 100%; height: auto; object-fit: contain;" />
 </div>
 </br>
-Este es un proyecto desarrollado en Flutter que utiliza la API de [{JSON} Placeholder](https://jsonplaceholder.typicode.com/) para notas y [REQRES](https://reqres.in/) para usuarios. El proyecto hace uso de varias tecnologías y bibliotecas de Flutter para crear una experiencia fluida tanto en iOS como en Android.
+Este proyecto ha sido desarrollado con **Flutter** y hace uso de las siguientes APIs públicas:
+
+- 📓 [JSON Placeholder](https://jsonplaceholder.typicode.com/) para la gestión de tareas/notas.
+- 👥 [REQRES](https://reqres.in/) para la simulación de datos de usuarios.
+
+Se han implementado diversas tecnologías y bibliotecas del ecosistema Flutter para ofrecer una experiencia fluida y eficiente tanto en **iOS** como en **Android**.
 
 ## 🔑 Acceso de Prueba
 
