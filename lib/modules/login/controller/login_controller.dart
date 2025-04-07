@@ -25,10 +25,10 @@ class LoginController extends BaseController {
 
   Future<bool?> login(AuthUser user) async {
     try {
-      final userData = await secureStorageService.loadCredentials();
-      if (userData?.id == null) {
-        return false;
-      }
+      // final userData = await secureStorageService.loadCredentials();
+      // if (userData?.id == null) {
+      //   return false;
+      // }
       final result = await _userRepository.login(user);
       _logger.info('Resultado de inicio de sesión: $result');
       if (result == null || result == false) {
